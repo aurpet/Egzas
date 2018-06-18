@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/pavadinimas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pavadinimas"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/kaina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="kaina :"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/pavadinimas"
+        android:layout_alignParentRight="true" />
+
+
+    <TextView
+        android:id="@+id/kalorijos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="kalorijos"
+        android:layout_below="@+id/pavadinimas"
+        android:layout_margin="5dp" />
+
+</RelativeLayout>
